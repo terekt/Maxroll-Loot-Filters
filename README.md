@@ -5,4 +5,4 @@ Our filters are tailored for each build and are designed to help you manage your
 
 
 # How to use our filters
-To use our filters, simply copy the .xml file for the filter you want and paste it in game. 
+To use our filters, simply copy the .xml file for the filter you want to use, now create a new lootfilter and select "paste clipboard content". 
