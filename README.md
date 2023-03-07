@@ -1,5 +1,5 @@
 # Maxroll Loot Filters for Last Epoch
-Welcome to Maxroll's repository of loot filters for the game Last Epoch!
+Welcome to Maxroll's repository of leveling loot filters for Last Epoch!
 
 Our filters are tailored for each build and are designed to help you manage your loot more efficiently.
 
