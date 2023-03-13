@@ -1,4 +1,4 @@
-﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
   <name>MR_ForgeGuard_Leveling_Template</name>
   <filterIcon>16</filterIcon>
   <filterIconColor>15</filterIconColor>
@@ -265,6 +265,8 @@
             <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
             <EquipmentType>QUIVER</EquipmentType>
             <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
+            <EquipmentType>TWO_HANDED_SPEAR</EquipmentType>
+            <EquipmentType>TWO_HANDED_MACE</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -417,7 +419,7 @@
             <int>429</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>1</comparsionValue>
+          <comparsionValue>2</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>4</combinedComparsionValue>
@@ -429,8 +431,6 @@
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>TWO_HANDED_AXE</EquipmentType>
-            <EquipmentType>TWO_HANDED_MACE</EquipmentType>
-            <EquipmentType>TWO_HANDED_SPEAR</EquipmentType>
             <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
           </type>
           <subTypes />
