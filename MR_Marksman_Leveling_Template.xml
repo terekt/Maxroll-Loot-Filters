@@ -1,4 +1,4 @@
-﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
   <name>MR_Marksman_Leveling_Template</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>17</filterIconColor>
@@ -126,7 +126,7 @@
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>28</combinedComparsionValue>
-          <advanced>true</advanced>
+          <advanced>false</advanced>
         </Condition>
       </conditions>
       <color>0</color>
