@@ -1,9 +1,9 @@
-﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
   <name>MR_Lich_Leveling_Template</name>
   <filterIcon>1</filterIcon>
   <filterIconColor>5</filterIconColor>
   <description>0.9</description>
-  <lastModifiedInVersion>0.8.14</lastModifiedInVersion>
+  <lastModifiedInVersion>0.9.2</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -1007,6 +1007,51 @@
       <maxLvl>2</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>All First TWo Levels For Gold</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>676</int>
+            <int>677</int>
+            <int>678</int>
+            <int>679</int>
+            <int>673</int>
+            <int>674</int>
+            <int>675</int>
+            <int>710</int>
+            <int>711</int>
+            <int>712</int>
+            <int>713</int>
+            <int>714</int>
+            <int>701</int>
+            <int>700</int>
+            <int>702</int>
+            <int>703</int>
+            <int>704</int>
+            <int>705</int>
+            <int>706</int>
+            <int>698</int>
+            <int>699</int>
+            <int>707</int>
+            <int>708</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Experimental affixes and personal items</nameOverride>
     </Rule>
   </rules>
 </ItemFilter>
