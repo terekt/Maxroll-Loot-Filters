@@ -3,7 +3,7 @@
   <filterIcon>3</filterIcon>
   <filterIconColor>10</filterIconColor>
   <description />
-  <lastModifiedInVersion>1.0.0.0</lastModifiedInVersion>
+  <lastModifiedInVersion>1.0.0.4</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -396,33 +396,6 @@
       <maxLvl>54</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Unused Weapons Mid Campaign</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIDE</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
-          </type>
-          <subTypes>
-            <int>0</int>
-            <int>1</int>
-            <int>3</int>
-            <int>5</int>
-            <int>7</int>
-            <int>8</int>
-            <int>9</int>
-            <int>11</int>
-          </subTypes>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>35</minLvl>
-      <maxLvl>54</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>Unused Axes Mid Campaign</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
