@@ -436,7 +436,7 @@
       <nameOverride>Wanted Items Early endgame</nameOverride>
     </Rule>
     <Rule>
-      <type>SHOW</type>
+      <type>HIDE</type>
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
