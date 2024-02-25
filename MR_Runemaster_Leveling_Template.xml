@@ -353,7 +353,7 @@
       <color>0</color>
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
-      <minLvl>46</minLvl>
+      <minLvl>35</minLvl>
       <maxLvl>54</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Wanted Affixes Late Campaign</nameOverride>
@@ -381,7 +381,7 @@
       <color>0</color>
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
-      <minLvl>46</minLvl>
+      <minLvl>35</minLvl>
       <maxLvl>54</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Unused Weapons Late Campaign</nameOverride>
