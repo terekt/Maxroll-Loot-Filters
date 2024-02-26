@@ -248,7 +248,7 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>16</minLvl>
-      <maxLvl>45</maxLvl>
+      <maxLvl>43</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Wanted Affixes Mid Campaign</nameOverride>
     </Rule>
@@ -269,7 +269,6 @@
             <EquipmentType>SHIELD</EquipmentType>
             <EquipmentType>WAND</EquipmentType>
             <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
-            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
             <EquipmentType>CATALYST</EquipmentType>
           </type>
           <subTypes />
@@ -279,7 +278,7 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>16</minLvl>
-      <maxLvl>45</maxLvl>
+      <maxLvl>43</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Unused Weapons Mid Campaign</nameOverride>
     </Rule>
@@ -307,7 +306,7 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>0</minLvl>
-      <maxLvl>45</maxLvl>
+      <maxLvl>43</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride> High Value Affixes Mid Campaign</nameOverride>
     </Rule>
@@ -381,7 +380,7 @@
       <color>0</color>
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
-      <minLvl>35</minLvl>
+      <minLvl>44</minLvl>
       <maxLvl>54</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Unused Weapons Late Campaign</nameOverride>
