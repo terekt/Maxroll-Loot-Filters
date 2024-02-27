@@ -154,7 +154,7 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>0</minLvl>
-      <maxLvl>19</maxLvl>
+      <maxLvl>15</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Wanted Affixes Early Campaign</nameOverride>
     </Rule>
@@ -185,7 +185,7 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>0</minLvl>
-      <maxLvl>19</maxLvl>
+      <maxLvl>15</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Useless Bases Early Campaign</nameOverride>
     </Rule>
@@ -210,7 +210,7 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>0</minLvl>
-      <maxLvl>19</maxLvl>
+      <maxLvl>15</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride> High Value Affixes Early Campaign</nameOverride>
     </Rule>
@@ -266,7 +266,7 @@
       <color>0</color>
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
-      <minLvl>20</minLvl>
+      <minLvl>16</minLvl>
       <maxLvl>54</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Wanted Affixes Mid Campaign</nameOverride>
@@ -296,7 +296,7 @@
       <color>0</color>
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
-      <minLvl>20</minLvl>
+      <minLvl>16</minLvl>
       <maxLvl>54</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Unused Weapons Mid Campaign</nameOverride>
