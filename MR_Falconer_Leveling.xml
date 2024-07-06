@@ -11,6 +11,9 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>NORMAL MAGIC RARE</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
       <color>0</color>
@@ -45,7 +48,6 @@
             <int>430</int>
             <int>476</int>
             <int>744</int>
-            <int>527</int>
             <int>492</int>
             <int>480</int>
             <int>478</int>
@@ -76,7 +78,6 @@
             <int>491</int>
             <int>476</int>
             <int>744</int>
-            <int>527</int>
             <int>492</int>
             <int>480</int>
             <int>478</int>
@@ -234,17 +235,15 @@
             <int>505</int>
             <int>33</int>
             <int>432</int>
-            <int>6</int>
             <int>92</int>
             <int>30</int>
             <int>463</int>
-            <int>729</int>
+            <int>616</int>
             <int>728</int>
             <int>739</int>
             <int>727</int>
             <int>642</int>
             <int>619</int>
-            <int>528</int>
             <int>477</int>
             <int>479</int>
             <int>481</int>
@@ -252,8 +251,6 @@
             <int>26</int>
             <int>64</int>
             <int>643</int>
-            <int>330</int>
-            <int>34</int>
             <int>5</int>
             <int>431</int>
             <int>433</int>
@@ -314,8 +311,7 @@
             <int>52</int>
             <int>642</int>
             <int>36</int>
-            <int>614</int>
-            <int>729</int>
+            <int>616</int>
             <int>728</int>
             <int>727</int>
           </affixes>
@@ -454,17 +450,15 @@
             <int>505</int>
             <int>33</int>
             <int>432</int>
-            <int>6</int>
             <int>92</int>
             <int>30</int>
             <int>463</int>
-            <int>729</int>
+            <int>616</int>
             <int>728</int>
             <int>739</int>
             <int>727</int>
             <int>642</int>
             <int>619</int>
-            <int>528</int>
             <int>477</int>
             <int>479</int>
             <int>481</int>
@@ -472,8 +466,6 @@
             <int>26</int>
             <int>64</int>
             <int>643</int>
-            <int>330</int>
-            <int>34</int>
             <int>5</int>
             <int>431</int>
             <int>433</int>
@@ -534,7 +526,7 @@
             <int>52</int>
             <int>642</int>
             <int>36</int>
-            <int>729</int>
+            <int>616</int>
             <int>728</int>
             <int>727</int>
           </affixes>
@@ -574,6 +566,9 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>UNIQUE SET</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
       <color>0</color>
@@ -589,6 +584,9 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>EXALTED</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
       <color>0</color>
@@ -604,6 +602,9 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>NORMAL MAGIC RARE UNIQUE SET EXALTED</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
       <color>0</color>
