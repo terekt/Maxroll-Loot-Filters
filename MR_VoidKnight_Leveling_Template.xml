@@ -1,9 +1,9 @@
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>MR_VoidKnight_Leveling</name>
+  <name>MR_VoidKnight_Leveling_Template</name>
   <filterIcon>16</filterIcon>
   <filterIconColor>15</filterIconColor>
   <description />
-  <lastModifiedInVersion>1.0.0.0</lastModifiedInVersion>
+  <lastModifiedInVersion>1.1.0.25</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -11,6 +11,9 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>NORMAL MAGIC RARE</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
       <color>0</color>
@@ -37,17 +40,14 @@
             <int>116</int>
             <int>117</int>
             <int>124</int>
-            <int>195</int>
-            <int>273</int>
-            <int>278</int>
-            <int>279</int>
-            <int>298</int>
             <int>323</int>
-            <int>201</int>
+            <int>306</int>
+            <int>278</int>
+            <int>209</int>
+            <int>208</int>
             <int>196</int>
-            <int>271</int>
-            <int>283</int>
-            <int>403</int>
+            <int>193</int>
+            <int>128</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -70,28 +70,13 @@
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>105</int>
-            <int>430</int>
-            <int>107</int>
-            <int>111</int>
-            <int>112</int>
-            <int>113</int>
-            <int>114</int>
-            <int>115</int>
-            <int>116</int>
-            <int>117</int>
-            <int>124</int>
-            <int>195</int>
-            <int>273</int>
+            <int>128</int>
             <int>278</int>
-            <int>279</int>
-            <int>298</int>
-            <int>323</int>
-            <int>201</int>
+            <int>208</int>
             <int>196</int>
-            <int>271</int>
-            <int>283</int>
-            <int>403</int>
+            <int>306</int>
+            <int>193</int>
+            <int>209</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -218,7 +203,7 @@
             <int>24</int>
             <int>17</int>
             <int>10</int>
-            <int>4</int>
+            <int>55</int>
             <int>45</int>
             <int>13</int>
             <int>19</int>
@@ -231,16 +216,23 @@
             <int>28</int>
             <int>52</int>
             <int>36</int>
-            <int>38</int>
-            <int>718</int>
-            <int>15</int>
-            <int>0</int>
+            <int>719</int>
+            <int>671</int>
+            <int>30</int>
+            <int>33</int>
             <int>75</int>
             <int>373</int>
-            <int>374</int>
-            <int>362</int>
-            <int>372</int>
-            <int>330</int>
+            <int>363</int>
+            <int>358</int>
+            <int>360</int>
+            <int>2</int>
+            <int>726</int>
+            <int>563</int>
+            <int>566</int>
+            <int>567</int>
+            <int>653</int>
+            <int>501</int>
+            <int>68</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>1</comparsionValue>
@@ -275,8 +267,8 @@
             <EquipmentType>SHIELD</EquipmentType>
             <EquipmentType>ONE_HANDED_MACES</EquipmentType>
             <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
-            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
             <EquipmentType>QUIVER</EquipmentType>
+            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -295,11 +287,11 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>36</int>
-            <int>566</int>
-            <int>562</int>
-            <int>560</int>
+            <int>563</int>
+            <int>567</int>
+            <int>653</int>
             <int>726</int>
-            <int>569</int>
+            <int>566</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -399,7 +391,7 @@
             <int>24</int>
             <int>17</int>
             <int>10</int>
-            <int>4</int>
+            <int>55</int>
             <int>45</int>
             <int>13</int>
             <int>19</int>
@@ -412,21 +404,23 @@
             <int>28</int>
             <int>52</int>
             <int>36</int>
-            <int>38</int>
-            <int>718</int>
-            <int>15</int>
-            <int>0</int>
+            <int>719</int>
+            <int>671</int>
+            <int>30</int>
+            <int>33</int>
             <int>75</int>
             <int>373</int>
-            <int>374</int>
-            <int>362</int>
-            <int>372</int>
-            <int>330</int>
+            <int>363</int>
+            <int>358</int>
+            <int>360</int>
+            <int>2</int>
             <int>726</int>
-            <int>569</int>
+            <int>563</int>
             <int>566</int>
-            <int>560</int>
             <int>567</int>
+            <int>653</int>
+            <int>501</int>
+            <int>68</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>1</comparsionValue>
@@ -449,7 +443,6 @@
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
-            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
             <EquipmentType>TWO_HANDED_MACE</EquipmentType>
             <EquipmentType>TWO_HANDED_SPEAR</EquipmentType>
             <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
@@ -463,6 +456,7 @@
             <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
             <EquipmentType>WAND</EquipmentType>
             <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -482,10 +476,10 @@
           <affixes>
             <int>726</int>
             <int>36</int>
-            <int>562</int>
+            <int>563</int>
+            <int>567</int>
             <int>566</int>
-            <int>560</int>
-            <int>569</int>
+            <int>653</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -523,6 +517,9 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>UNIQUE SET</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
       <color>0</color>
@@ -538,6 +535,9 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>EXALTED</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
       <color>0</color>
@@ -553,6 +553,9 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>NORMAL MAGIC RARE</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
       <color>0</color>
