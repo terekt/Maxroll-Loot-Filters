@@ -1,9 +1,9 @@
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>MR_Sorcerer_Leveling</name>
+  <name>MR_Sorcerer_Leveling_Template</name>
   <filterIcon>19</filterIcon>
   <filterIconColor>16</filterIconColor>
   <description />
-  <lastModifiedInVersion>1.0.0.0</lastModifiedInVersion>
+  <lastModifiedInVersion>1.1.0.23</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -11,6 +11,9 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>NORMAL MAGIC RARE</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
       <color>0</color>
@@ -38,15 +41,16 @@
             <int>116</int>
             <int>117</int>
             <int>124</int>
-            <int>657</int>
-            <int>254</int>
-            <int>242</int>
-            <int>185</int>
-            <int>190</int>
-            <int>184</int>
-            <int>181</int>
             <int>320</int>
-            <int>252</int>
+            <int>129</int>
+            <int>689</int>
+            <int>328</int>
+            <int>255</int>
+            <int>249</int>
+            <int>243</int>
+            <int>191</int>
+            <int>178</int>
+            <int>244</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -69,14 +73,15 @@
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>657</int>
-            <int>254</int>
-            <int>242</int>
-            <int>185</int>
-            <int>190</int>
-            <int>184</int>
-            <int>181</int>
-            <int>252</int>
+            <int>328</int>
+            <int>255</int>
+            <int>689</int>
+            <int>244</int>
+            <int>191</int>
+            <int>249</int>
+            <int>243</int>
+            <int>129</int>
+            <int>178</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -103,34 +108,41 @@
             <int>25</int>
             <int>52</int>
             <int>36</int>
-            <int>505</int>
             <int>80</int>
             <int>13</int>
             <int>24</int>
             <int>10</int>
             <int>7</int>
             <int>45</int>
-            <int>90</int>
+            <int>721</int>
             <int>27</int>
             <int>17</int>
-            <int>502</int>
             <int>75</int>
-            <int>68</int>
-            <int>55</int>
-            <int>20</int>
-            <int>44</int>
-            <int>22</int>
-            <int>38</int>
-            <int>23</int>
-            <int>9</int>
-            <int>85</int>
-            <int>39</int>
-            <int>722</int>
+            <int>630</int>
+            <int>502</int>
+            <int>505</int>
+            <int>84</int>
             <int>4</int>
+            <int>38</int>
+            <int>16</int>
+            <int>9</int>
+            <int>35</int>
+            <int>397</int>
+            <int>400</int>
+            <int>381</int>
+            <int>628</int>
+            <int>550</int>
+            <int>552</int>
+            <int>547</int>
+            <int>330</int>
+            <int>331</int>
+            <int>34</int>
+            <int>20</int>
+            <int>90</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>1</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsionValue>2</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>28</combinedComparsionValue>
           <advanced>false</advanced>
@@ -181,11 +193,11 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>628</int>
-            <int>557</int>
-            <int>556</int>
+            <int>550</int>
+            <int>552</int>
             <int>28</int>
             <int>547</int>
-            <int>680</int>
+            <int>630</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -218,30 +230,35 @@
             <int>10</int>
             <int>7</int>
             <int>45</int>
-            <int>722</int>
+            <int>721</int>
             <int>27</int>
             <int>17</int>
             <int>75</int>
-            <int>392</int>
+            <int>630</int>
             <int>502</int>
             <int>505</int>
             <int>84</int>
             <int>4</int>
             <int>38</int>
-            <int>23</int>
+            <int>16</int>
             <int>9</int>
-            <int>39</int>
+            <int>35</int>
             <int>6</int>
             <int>5</int>
-            <int>101</int>
-            <int>385</int>
-            <int>717</int>
             <int>397</int>
             <int>400</int>
+            <int>381</int>
+            <int>628</int>
+            <int>550</int>
+            <int>552</int>
+            <int>547</int>
+            <int>330</int>
+            <int>331</int>
+            <int>34</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>2</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
+          <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>28</combinedComparsionValue>
           <advanced>false</advanced>
@@ -292,9 +309,9 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>36</int>
-            <int>680</int>
-            <int>556</int>
-            <int>557</int>
+            <int>550</int>
+            <int>630</int>
+            <int>552</int>
             <int>628</int>
             <int>547</int>
           </affixes>
@@ -409,31 +426,31 @@
             <int>10</int>
             <int>7</int>
             <int>45</int>
-            <int>722</int>
+            <int>721</int>
             <int>27</int>
             <int>17</int>
             <int>75</int>
-            <int>392</int>
+            <int>630</int>
             <int>502</int>
             <int>505</int>
             <int>84</int>
             <int>4</int>
             <int>38</int>
-            <int>23</int>
+            <int>16</int>
             <int>9</int>
-            <int>39</int>
+            <int>35</int>
             <int>6</int>
             <int>5</int>
-            <int>101</int>
-            <int>385</int>
-            <int>717</int>
             <int>397</int>
             <int>400</int>
-            <int>680</int>
+            <int>381</int>
             <int>628</int>
-            <int>556</int>
-            <int>557</int>
+            <int>550</int>
+            <int>552</int>
             <int>547</int>
+            <int>330</int>
+            <int>331</int>
+            <int>34</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>2</comparsionValue>
@@ -465,11 +482,10 @@
             <EquipmentType>ONE_HANDED_MACES</EquipmentType>
             <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
             <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
-            <EquipmentType>WAND</EquipmentType>
             <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
-            <EquipmentType>CATALYST</EquipmentType>
             <EquipmentType>SHIELD</EquipmentType>
             <EquipmentType>QUIVER</EquipmentType>
+            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -488,9 +504,9 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>36</int>
-            <int>680</int>
-            <int>556</int>
-            <int>557</int>
+            <int>630</int>
+            <int>552</int>
+            <int>550</int>
             <int>628</int>
             <int>547</int>
           </affixes>
@@ -530,6 +546,9 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>UNIQUE SET</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
       <color>0</color>
@@ -545,6 +564,9 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>EXALTED</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
       <color>0</color>
@@ -560,6 +582,9 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>NORMAL MAGIC RARE</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
       <color>0</color>
