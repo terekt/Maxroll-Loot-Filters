@@ -142,7 +142,7 @@
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>2</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
+          <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>28</combinedComparsionValue>
           <advanced>false</advanced>
@@ -258,7 +258,7 @@
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>2</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
+          <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>28</combinedComparsionValue>
           <advanced>false</advanced>
