@@ -1,5 +1,5 @@
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>Maxroll - Sentinel Leveling</name>
+  <name>Maxroll - Sentinel Leveling 1.1</name>
   <filterIcon>13</filterIcon>
   <filterIconColor>15</filterIconColor>
   <description>Updated for 1.1</description>
@@ -1038,6 +1038,11 @@
             <int>776</int>
             <int>779</int>
             <int>770</int>
+            <int>3</int>
+            <int>81</int>
+            <int>426</int>
+            <int>74</int>
+            <int>46</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>6</comparsionValue>
