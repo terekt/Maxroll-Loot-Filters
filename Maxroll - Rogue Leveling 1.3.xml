@@ -1,8 +1,8 @@
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>Maxroll - Rogue Leveling 1.2</name>
+  <name>Maxroll - Rogue Leveling 1.3</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>12</filterIconColor>
-  <description>Updated for 1.2 by Terek</description>
+  <description>Updated for 1.3 by Terek</description>
   <lastModifiedInVersion>1.1.7.17</lastModifiedInVersion>
   <lootFilterVersion>3</lootFilterVersion>
   <rules>
@@ -16,6 +16,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>38</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -53,6 +54,7 @@
       <maxLvl>15</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Health recovery - low levels</nameOverride>
+      <Order>37</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -106,6 +108,7 @@
       <maxLvl>9</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - early</nameOverride>
+      <Order>36</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -158,6 +161,7 @@
       <maxLvl>30</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - only T2+</nameOverride>
+      <Order>35</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -211,6 +215,7 @@
       <maxLvl>54</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - only T3+</nameOverride>
+      <Order>34</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -264,6 +269,7 @@
       <maxLvl>100</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - only T4+</nameOverride>
+      <Order>33</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -315,6 +321,7 @@
       <maxLvl>4</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - Starting setup</nameOverride>
+      <Order>32</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -367,6 +374,7 @@
       <maxLvl>12</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - Low level</nameOverride>
+      <Order>31</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -422,6 +430,7 @@
       <maxLvl>40</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - only T2+</nameOverride>
+      <Order>30</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -477,6 +486,7 @@
       <maxLvl>54</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - only T3+</nameOverride>
+      <Order>29</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -532,6 +542,7 @@
       <maxLvl>100</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - only T4+</nameOverride>
+      <Order>28</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -559,6 +570,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Personal and Experimental affixes</nameOverride>
+      <Order>27</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -595,6 +607,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Champions Affixes</nameOverride>
+      <Order>26</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -619,6 +632,7 @@
       <maxLvl>35</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Movement Speed and CDR - Early</nameOverride>
+      <Order>25</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -643,6 +657,7 @@
       <maxLvl>49</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Movement Speed and CDR - End game only T2+</nameOverride>
+      <Order>24</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -667,6 +682,7 @@
       <maxLvl>100</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Movement Speed and CDR - End game only T3+</nameOverride>
+      <Order>23</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -687,6 +703,7 @@
       <maxLvl>10</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>22</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -707,6 +724,7 @@
       <maxLvl>10</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>21</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -757,6 +775,7 @@
       <maxLvl>24</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Daggers until Kris dagger</nameOverride>
+      <Order>20</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -806,6 +825,7 @@
       <maxLvl>26</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Iron Hammer until Kris dagger</nameOverride>
+      <Order>19</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -871,6 +891,7 @@
       <maxLvl>32</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Horned Helm</nameOverride>
+      <Order>18</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -936,6 +957,7 @@
       <maxLvl>32</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Exile Hat</nameOverride>
+      <Order>17</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1002,6 +1024,7 @@
       <maxLvl>32</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Good Body Armor Bases</nameOverride>
+      <Order>16</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1067,6 +1090,7 @@
       <maxLvl>15</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Venom Phial</nameOverride>
+      <Order>15</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1132,6 +1156,7 @@
       <maxLvl>35</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Weathered Coins</nameOverride>
+      <Order>14</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1152,6 +1177,7 @@
       <maxLvl>30</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Kris</nameOverride>
+      <Order>13</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1201,6 +1227,7 @@
       <maxLvl>24</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Kris</nameOverride>
+      <Order>12</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1250,6 +1277,7 @@
       <maxLvl>24</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Doom Star</nameOverride>
+      <Order>11</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1273,6 +1301,7 @@
       <maxLvl>30</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Melee Leech</nameOverride>
+      <Order>10</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1297,6 +1326,7 @@
       <maxLvl>45</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Most Valuable - Low level</nameOverride>
+      <Order>9</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1327,6 +1357,7 @@
       <maxLvl>36</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Most Valuable</nameOverride>
+      <Order>8</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1376,6 +1407,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Useful Idols</nameOverride>
+      <Order>7</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1418,6 +1450,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>New Useful Weaver Idols</nameOverride>
+      <Order>6</Order>
     </Rule>
     <Rule>
       <type>HIDE</type>
@@ -1433,6 +1466,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>other class items</nameOverride>
+      <Order>5</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1455,6 +1489,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>4</Order>
     </Rule>
     <Rule>
       <type>HIDE</type>
@@ -1477,6 +1512,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>3</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1576,6 +1612,7 @@
       <maxLvl>45</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>2</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1674,6 +1711,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>1</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1723,6 +1761,7 @@
       <maxLvl>3</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>every item for first 3 lvls (extra gold at vendor)</nameOverride>
+      <Order>0</Order>
     </Rule>
   </rules>
 </ItemFilter>
