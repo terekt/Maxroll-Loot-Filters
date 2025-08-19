@@ -368,14 +368,11 @@
             <int>504</int>
             <int>86</int>
             <int>330</int>
-            <int>9</int>
             <int>342</int>
             <int>352</int>
             <int>334</int>
             <int>333</int>
             <int>344</int>
-            <int>38</int>
-            <int>23</int>
             <int>34</int>
             <int>331</int>
             <int>718</int>
@@ -388,7 +385,6 @@
             <int>26</int>
             <int>102</int>
             <int>643</int>
-            <int>722</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -878,7 +874,7 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>622</int>
-            <int>540</int>
+            <int>543</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -902,9 +898,9 @@
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>646</int>
-            <int>621</int>
+            <int>606</int>
             <int>585</int>
+            <int>543</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
