@@ -16,7 +16,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
-      <Order>31</Order>
+      <Order>30</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -55,7 +55,7 @@
       <maxLvl>9</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Health recovery - low levels</nameOverride>
-      <Order>30</Order>
+      <Order>29</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -93,7 +93,7 @@
       <maxLvl>20</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Health recovery - Early levels</nameOverride>
-      <Order>29</Order>
+      <Order>28</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -144,7 +144,7 @@
       <maxLvl>9</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - early</nameOverride>
-      <Order>28</Order>
+      <Order>27</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -194,7 +194,7 @@
       <maxLvl>30</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - only T2+</nameOverride>
-      <Order>27</Order>
+      <Order>26</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -245,7 +245,7 @@
       <maxLvl>54</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - only T3+</nameOverride>
-      <Order>26</Order>
+      <Order>25</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -297,7 +297,7 @@
       <maxLvl>100</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - only T4+</nameOverride>
-      <Order>25</Order>
+      <Order>24</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -358,7 +358,7 @@
       <maxLvl>6</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - Starting setup</nameOverride>
-      <Order>24</Order>
+      <Order>23</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -418,7 +418,7 @@
       <maxLvl>16</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - Low level</nameOverride>
-      <Order>23</Order>
+      <Order>22</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -482,7 +482,7 @@
       <maxLvl>40</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - only T2+</nameOverride>
-      <Order>22</Order>
+      <Order>21</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -545,7 +545,7 @@
       <maxLvl>54</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - only T3+</nameOverride>
-      <Order>21</Order>
+      <Order>20</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -597,60 +597,6 @@
             <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
             <EquipmentType>TWO_HANDED_SPEAR</EquipmentType>
             <EquipmentType>TWO_HANDED_MACE</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-      </conditions>
-      <color>5</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>55</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>Offensive affixes - only T4+</nameOverride>
-      <Order>20</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>504</int>
-            <int>86</int>
-            <int>6</int>
-            <int>23</int>
-            <int>338</int>
-            <int>335</int>
-            <int>350</int>
-            <int>333</int>
-            <int>344</int>
-            <int>38</int>
-            <int>4</int>
-            <int>39</int>
-            <int>722</int>
-            <int>34</int>
-            <int>331</int>
-            <int>718</int>
-            <int>759</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>4</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>4</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>HELMET</EquipmentType>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-            <EquipmentType>BELT</EquipmentType>
-            <EquipmentType>BOOTS</EquipmentType>
-            <EquipmentType>GLOVES</EquipmentType>
-            <EquipmentType>AMULET</EquipmentType>
-            <EquipmentType>RING</EquipmentType>
-            <EquipmentType>RELIC</EquipmentType>
-            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
           </type>
           <subTypes />
         </Condition>
