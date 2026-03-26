@@ -17,7 +17,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>35</Order>
+      <Order>36</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -58,7 +58,7 @@
       <nameOverride>Health recovery - low levels</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>34</Order>
+      <Order>35</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -115,7 +115,7 @@
       <nameOverride>Defensive affixes - early</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>33</Order>
+      <Order>34</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -171,7 +171,7 @@
       <nameOverride>Defensive affixes - only T2+</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>32</Order>
+      <Order>33</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -228,7 +228,7 @@
       <nameOverride>Defensive affixes - only T3+</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>31</Order>
+      <Order>32</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -285,7 +285,7 @@
       <nameOverride>Defensive affixes - only T4+</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>30</Order>
+      <Order>31</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -340,7 +340,7 @@
       <nameOverride>Offensive affixes - Starting setup</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>29</Order>
+      <Order>30</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -396,7 +396,7 @@
       <nameOverride>Offensive affixes - Low level</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>28</Order>
+      <Order>29</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -457,7 +457,7 @@
       <nameOverride>Offensive affixes - only T2+</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>27</Order>
+      <Order>28</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -518,7 +518,7 @@
       <nameOverride>Offensive affixes - only T3+</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>26</Order>
+      <Order>27</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -579,7 +579,7 @@
       <nameOverride>Offensive affixes - only T4+</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>25</Order>
+      <Order>26</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -606,7 +606,7 @@
       <nameOverride>Personal and Experimental affixes</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>24</Order>
+      <Order>25</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -642,7 +642,7 @@
       <nameOverride>Champions Affixes</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>23</Order>
+      <Order>24</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -670,7 +670,7 @@
       <nameOverride>Movement Speed and CDR - Early</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>22</Order>
+      <Order>23</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -698,7 +698,7 @@
       <nameOverride>Movement Speed and CDR - End game only T2+</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>21</Order>
+      <Order>22</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -726,7 +726,7 @@
       <nameOverride>Movement Speed and CDR - End game only T3+</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>20</Order>
+      <Order>21</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -750,7 +750,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>19</Order>
+      <Order>20</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -774,7 +774,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>18</Order>
+      <Order>19</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -815,7 +815,7 @@
       <nameOverride>Daggers until Kris dagger</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>17</Order>
+      <Order>18</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -868,7 +868,7 @@
       <nameOverride>Iron Hammer until Kris dagger</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>16</Order>
+      <Order>17</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -937,7 +937,7 @@
       <nameOverride>Horned Helm</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>15</Order>
+      <Order>16</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1006,7 +1006,7 @@
       <nameOverride>Exile Hat</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>14</Order>
+      <Order>15</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1072,7 +1072,7 @@
       <nameOverride>Good Body Armor Bases</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>13</Order>
+      <Order>14</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1141,7 +1141,7 @@
       <nameOverride>Venom Phial</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>12</Order>
+      <Order>13</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1210,7 +1210,7 @@
       <nameOverride>Weathered Coins</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>11</Order>
+      <Order>12</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1234,7 +1234,7 @@
       <nameOverride>Kris</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>10</Order>
+      <Order>11</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1283,7 +1283,7 @@
       <nameOverride>Kris</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>9</Order>
+      <Order>10</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1332,7 +1332,7 @@
       <nameOverride>Doom Star</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>8</Order>
+      <Order>9</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1359,7 +1359,7 @@
       <nameOverride>Melee Leech</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>7</Order>
+      <Order>8</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1387,7 +1387,7 @@
       <nameOverride>Most Valuable - Low level</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>6</Order>
+      <Order>7</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1418,7 +1418,7 @@
       <nameOverride>Most Valuable</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>5</Order>
+      <Order>6</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1467,7 +1467,7 @@
       <nameOverride>Useful Idols</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>4</Order>
+      <Order>5</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1509,7 +1509,7 @@
       <nameOverride>New Useful Weaver Idols</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>3</Order>
+      <Order>4</Order>
     </Rule>
     <Rule>
       <type>HIDE</type>
@@ -1524,7 +1524,7 @@
       <nameOverride>other class items</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>2</Order>
+      <Order>3</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1543,7 +1543,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>1</Order>
+      <Order>2</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1594,6 +1594,24 @@
       <isEnabled>true</isEnabled>
       <emphasized>false</emphasized>
       <nameOverride>every item for first 3 lvls (extra gold at vendor)</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>1</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+
+          </type>
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <emphasized>false</emphasized>
+      <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
       <Order>0</Order>
