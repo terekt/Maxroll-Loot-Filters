@@ -1,22 +1,23 @@
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>Maxroll - Rogue Leveling 1.3</name>
+  <name>Maxroll - Rogue Leveling 1.4</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>12</filterIconColor>
-  <description>Updated for 1.3 by Terek</description>
-  <lastModifiedInVersion>1.1.7.17</lastModifiedInVersion>
-  <lootFilterVersion>3</lootFilterVersion>
+  <description>Updated for 1.4 by Terek</description>
+  <lastModifiedInVersion>1.4.0</lastModifiedInVersion>
+  <lootFilterVersion>5</lootFilterVersion>
   <rules>
     <Rule>
       <type>HIDE</type>
-      <conditions />
+      <conditions>
+
+      </conditions>
       <color>0</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
-      <Order>38</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>35</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -27,7 +28,7 @@
             <int>90</int>
           </affixes>
           <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
+          <comparsionValue>1</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
@@ -46,15 +47,18 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>15</maximumLvl>
+        </Condition>
       </conditions>
       <color>3</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>15</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Health recovery - low levels</nameOverride>
-      <Order>37</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>34</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -100,15 +104,18 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>9</maximumLvl>
+        </Condition>
       </conditions>
       <color>3</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>9</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - early</nameOverride>
-      <Order>36</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>33</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -153,15 +160,18 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>10</minimumLvl>
+          <maximumLvl>30</maximumLvl>
+        </Condition>
       </conditions>
       <color>3</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>10</minLvl>
-      <maxLvl>30</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - only T2+</nameOverride>
-      <Order>35</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>32</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -207,15 +217,18 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>31</minimumLvl>
+          <maximumLvl>54</maximumLvl>
+        </Condition>
       </conditions>
       <color>3</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>31</minLvl>
-      <maxLvl>54</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - only T3+</nameOverride>
-      <Order>34</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>31</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -261,15 +274,18 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>55</minimumLvl>
+          <maximumLvl>100</maximumLvl>
+        </Condition>
       </conditions>
       <color>3</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>55</minLvl>
-      <maxLvl>100</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - only T4+</nameOverride>
-      <Order>33</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>30</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -290,7 +306,7 @@
             <int>78</int>
           </affixes>
           <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
+          <comparsionValue>1</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
@@ -313,15 +329,18 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>4</maximumLvl>
+        </Condition>
       </conditions>
       <color>5</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>4</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - Starting setup</nameOverride>
-      <Order>32</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>29</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -331,21 +350,18 @@
             <int>503</int>
             <int>55</int>
             <int>719</int>
-            <int>432</int>
-            <int>672</int>
             <int>68</int>
             <int>54</int>
             <int>30</int>
             <int>33</int>
-            <int>431</int>
-            <int>433</int>
             <int>72</int>
             <int>463</int>
             <int>483</int>
             <int>494</int>
+            <int>2</int>
           </affixes>
           <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
+          <comparsionValue>1</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
@@ -360,21 +376,26 @@
             <EquipmentType>AMULET</EquipmentType>
             <EquipmentType>RING</EquipmentType>
             <EquipmentType>RELIC</EquipmentType>
-            <EquipmentType>BOW</EquipmentType>
-            <EquipmentType>QUIVER</EquipmentType>
             <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
+            <EquipmentType>TWO_HANDED_SPEAR</EquipmentType>
+            <EquipmentType>TWO_HANDED_MACE</EquipmentType>
+            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
           </type>
           <subTypes />
+        </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>15</maximumLvl>
         </Condition>
       </conditions>
       <color>5</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>12</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - Low level</nameOverride>
-      <Order>31</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>28</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -422,15 +443,18 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>10</minimumLvl>
+          <maximumLvl>40</maximumLvl>
+        </Condition>
       </conditions>
       <color>5</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>13</minLvl>
-      <maxLvl>40</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - only T2+</nameOverride>
-      <Order>30</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>27</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -478,15 +502,18 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>41</minimumLvl>
+          <maximumLvl>54</maximumLvl>
+        </Condition>
       </conditions>
       <color>5</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>41</minLvl>
-      <maxLvl>54</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - only T3+</nameOverride>
-      <Order>29</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>26</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -534,15 +561,18 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>55</minimumLvl>
+          <maximumLvl>100</maximumLvl>
+        </Condition>
       </conditions>
       <color>5</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>55</minLvl>
-      <maxLvl>100</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - only T4+</nameOverride>
-      <Order>28</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>25</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -565,12 +595,11 @@
       </conditions>
       <color>0</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Personal and Experimental affixes</nameOverride>
-      <Order>27</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>24</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -602,12 +631,11 @@
       </conditions>
       <color>0</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Champions Affixes</nameOverride>
-      <Order>26</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>23</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -624,15 +652,18 @@
           <combinedComparsionValue>1</combinedComparsionValue>
           <advanced>false</advanced>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>35</maximumLvl>
+        </Condition>
       </conditions>
       <color>13</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>35</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Movement Speed and CDR - Early</nameOverride>
-      <Order>25</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>22</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -649,15 +680,18 @@
           <combinedComparsionValue>4</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>36</minimumLvl>
+          <maximumLvl>49</maximumLvl>
+        </Condition>
       </conditions>
       <color>13</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>36</minLvl>
-      <maxLvl>49</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Movement Speed and CDR - End game only T2+</nameOverride>
-      <Order>24</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>21</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -674,15 +708,18 @@
           <combinedComparsionValue>4</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>50</minimumLvl>
+          <maximumLvl>100</maximumLvl>
+        </Condition>
       </conditions>
       <color>13</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>100</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Movement Speed and CDR - End game only T3+</nameOverride>
-      <Order>23</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>20</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -695,15 +732,18 @@
             <int>1</int>
           </subTypes>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>10</maximumLvl>
+        </Condition>
       </conditions>
       <color>0</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>10</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
-      <Order>22</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>19</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -716,40 +756,30 @@
             <int>3</int>
           </subTypes>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>10</maximumLvl>
+        </Condition>
       </conditions>
       <color>0</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>10</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
-      <Order>21</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>18</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>87</int>
             <int>86</int>
             <int>6</int>
-            <int>33</int>
             <int>63</int>
             <int>89</int>
             <int>719</int>
             <int>30</int>
-            <int>88</int>
-            <int>503</int>
-            <int>507</int>
-            <int>487</int>
-            <int>481</int>
-            <int>479</int>
-            <int>475</int>
-            <int>473</int>
-            <int>471</int>
-            <int>461</int>
-            <int>457</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>2</comparsionValue>
@@ -767,15 +797,18 @@
             <int>2</int>
           </subTypes>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>24</maximumLvl>
+        </Condition>
       </conditions>
       <color>5</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>24</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Daggers until Kris dagger</nameOverride>
-      <Order>20</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>17</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -817,15 +850,18 @@
             <int>1</int>
           </subTypes>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>26</maximumLvl>
+        </Condition>
       </conditions>
       <color>7</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>26</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Iron Hammer until Kris dagger</nameOverride>
-      <Order>19</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>16</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -883,15 +919,18 @@
             <int>46</int>
           </subTypes>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>32</maximumLvl>
+        </Condition>
       </conditions>
       <color>7</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>32</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Horned Helm</nameOverride>
-      <Order>18</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>15</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -949,15 +988,18 @@
             <int>48</int>
           </subTypes>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>32</maximumLvl>
+        </Condition>
       </conditions>
       <color>7</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>32</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Exile Hat</nameOverride>
-      <Order>17</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>14</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1019,12 +1061,11 @@
       </conditions>
       <color>7</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>32</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Good Body Armor Bases</nameOverride>
-      <Order>16</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>13</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1082,15 +1123,18 @@
             <int>48</int>
           </subTypes>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>15</maximumLvl>
+        </Condition>
       </conditions>
       <color>7</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>15</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Venom Phial</nameOverride>
-      <Order>15</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>12</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1148,15 +1192,18 @@
             <int>49</int>
           </subTypes>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>35</maximumLvl>
+        </Condition>
       </conditions>
       <color>7</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>35</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Weathered Coins</nameOverride>
-      <Order>14</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>11</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1169,18 +1216,21 @@
             <int>3</int>
           </subTypes>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>30</maximumLvl>
+        </Condition>
       </conditions>
       <color>7</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>30</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Kris</nameOverride>
-      <Order>13</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>10</Order>
     </Rule>
     <Rule>
-      <type>HIGHLIGHT</type>
+      <type>SHOW</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
@@ -1222,15 +1272,14 @@
       </conditions>
       <color>7</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>24</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Kris</nameOverride>
-      <Order>12</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>9</Order>
     </Rule>
     <Rule>
-      <type>HIGHLIGHT</type>
+      <type>SHOW</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
@@ -1272,15 +1321,14 @@
       </conditions>
       <color>7</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>24</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Doom Star</nameOverride>
-      <Order>11</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>8</Order>
     </Rule>
     <Rule>
-      <type>HIGHLIGHT</type>
+      <type>SHOW</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
@@ -1293,57 +1341,64 @@
           <combinedComparsionValue>1</combinedComparsionValue>
           <advanced>false</advanced>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>30</maximumLvl>
+        </Condition>
       </conditions>
       <color>7</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>30</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Melee Leech</nameOverride>
-      <Order>10</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>7</Order>
     </Rule>
     <Rule>
-      <type>HIGHLIGHT</type>
+      <type>SHOW</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>619</int>
             <int>507</int>
+            <int>1091</int>
           </affixes>
           <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
+          <comparsionValue>1</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
           <advanced>false</advanced>
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>45</maximumLvl>
+        </Condition>
       </conditions>
       <color>7</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>45</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Most Valuable - Low level</nameOverride>
-      <Order>9</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>6</Order>
     </Rule>
     <Rule>
-      <type>HIGHLIGHT</type>
+      <type>SHOW</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
             <int>36</int>
             <int>730</int>
             <int>728</int>
-            <int>727</int>
             <int>662</int>
             <int>642</int>
             <int>487</int>
             <int>824</int>
+            <int>1090</int>
+            <int>507</int>
           </affixes>
           <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
+          <comparsionValue>1</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
@@ -1352,12 +1407,11 @@
       </conditions>
       <color>7</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>36</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Most Valuable</nameOverride>
-      <Order>8</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>5</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1402,12 +1456,11 @@
       </conditions>
       <color>15</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Useful Idols</nameOverride>
-      <Order>7</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>4</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1445,12 +1498,11 @@
       </conditions>
       <color>15</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>New Useful Weaver Idols</nameOverride>
-      <Order>6</Order>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>3</Order>
     </Rule>
     <Rule>
       <type>HIDE</type>
@@ -1461,256 +1513,29 @@
       </conditions>
       <color>0</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>other class items</nameOverride>
-      <Order>5</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="RarityCondition">
-          <rarity>UNIQUE SET LEGENDARY</rarity>
-          <minLegendaryPotential i:nil="true" />
-          <maxLegendaryPotential i:nil="true" />
-          <minWeaversWill i:nil="true" />
-          <maxWeaversWill i:nil="true" />
-          <advanced_DEPRECATED>false</advanced_DEPRECATED>
-          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
-          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride />
-      <Order>4</Order>
-    </Rule>
-    <Rule>
-      <type>HIDE</type>
-      <conditions>
-        <Condition i:type="RarityCondition">
-          <rarity>EXALTED</rarity>
-          <minLegendaryPotential i:nil="true" />
-          <maxLegendaryPotential i:nil="true" />
-          <minWeaversWill i:nil="true" />
-          <maxWeaversWill i:nil="true" />
-          <advanced_DEPRECATED>false</advanced_DEPRECATED>
-          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
-          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride />
-      <Order>3</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="RarityCondition">
-          <rarity>EXALTED</rarity>
-          <minLegendaryPotential i:nil="true" />
-          <maxLegendaryPotential i:nil="true" />
-          <minWeaversWill i:nil="true" />
-          <maxWeaversWill i:nil="true" />
-          <advanced_DEPRECATED>false</advanced_DEPRECATED>
-          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
-          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
-        </Condition>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>HELMET</EquipmentType>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-            <EquipmentType>BELT</EquipmentType>
-            <EquipmentType>BOOTS</EquipmentType>
-            <EquipmentType>GLOVES</EquipmentType>
-            <EquipmentType>AMULET</EquipmentType>
-            <EquipmentType>RING</EquipmentType>
-            <EquipmentType>RELIC</EquipmentType>
-            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
-            <EquipmentType>ONE_HANDED_MACES</EquipmentType>
-            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
-            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>30</int>
-            <int>505</int>
-            <int>63</int>
-            <int>89</int>
-            <int>75</int>
-            <int>33</int>
-            <int>719</int>
-            <int>6</int>
-            <int>101</int>
-            <int>25</int>
-            <int>52</int>
-            <int>36</int>
-            <int>97</int>
-            <int>715</int>
-            <int>45</int>
-            <int>92</int>
-            <int>7</int>
-            <int>10</int>
-            <int>19</int>
-            <int>24</int>
-            <int>80</int>
-            <int>13</int>
-            <int>17</int>
-            <int>28</int>
-            <int>27</int>
-            <int>86</int>
-            <int>487</int>
-            <int>677</int>
-            <int>676</int>
-            <int>503</int>
-            <int>662</int>
-            <int>88</int>
-            <int>87</int>
-            <int>507</int>
-            <int>69</int>
-            <int>642</int>
-            <int>730</int>
-            <int>727</int>
-            <int>728</int>
-            <int>481</int>
-            <int>479</int>
-            <int>475</int>
-            <int>473</int>
-            <int>471</int>
-            <int>461</int>
-            <int>457</int>
-            <int>449</int>
-            <int>442</int>
-            <int>437</int>
-            <int>619</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>6</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>45</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride />
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
       <Order>2</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
       <conditions>
         <Condition i:type="RarityCondition">
-          <rarity>EXALTED</rarity>
+          <rarity>EXALTED UNIQUE SET LEGENDARY</rarity>
           <minLegendaryPotential i:nil="true" />
           <maxLegendaryPotential i:nil="true" />
           <minWeaversWill i:nil="true" />
           <maxWeaversWill i:nil="true" />
-          <advanced_DEPRECATED>false</advanced_DEPRECATED>
-          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
-          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
-        </Condition>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>HELMET</EquipmentType>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-            <EquipmentType>BELT</EquipmentType>
-            <EquipmentType>BOOTS</EquipmentType>
-            <EquipmentType>GLOVES</EquipmentType>
-            <EquipmentType>AMULET</EquipmentType>
-            <EquipmentType>RING</EquipmentType>
-            <EquipmentType>RELIC</EquipmentType>
-            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
-            <EquipmentType>ONE_HANDED_MACES</EquipmentType>
-            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
-            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>30</int>
-            <int>505</int>
-            <int>63</int>
-            <int>89</int>
-            <int>75</int>
-            <int>33</int>
-            <int>719</int>
-            <int>6</int>
-            <int>101</int>
-            <int>25</int>
-            <int>52</int>
-            <int>36</int>
-            <int>97</int>
-            <int>715</int>
-            <int>45</int>
-            <int>92</int>
-            <int>7</int>
-            <int>10</int>
-            <int>19</int>
-            <int>24</int>
-            <int>80</int>
-            <int>13</int>
-            <int>17</int>
-            <int>28</int>
-            <int>27</int>
-            <int>86</int>
-            <int>487</int>
-            <int>677</int>
-            <int>676</int>
-            <int>503</int>
-            <int>662</int>
-            <int>88</int>
-            <int>87</int>
-            <int>507</int>
-            <int>69</int>
-            <int>642</int>
-            <int>730</int>
-            <int>727</int>
-            <int>728</int>
-            <int>481</int>
-            <int>479</int>
-            <int>475</int>
-            <int>473</int>
-            <int>471</int>
-            <int>461</int>
-            <int>457</int>
-            <int>449</int>
-            <int>442</int>
-            <int>437</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>6</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
-          <advanced>true</advanced>
         </Condition>
       </conditions>
       <color>0</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
       <Order>1</Order>
     </Rule>
     <Rule>
@@ -1753,14 +1578,17 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>3</maximumLvl>
+        </Condition>
       </conditions>
       <color>0</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>3</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>every item for first 3 lvls (extra gold at vendor)</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
       <Order>0</Order>
     </Rule>
   </rules>
