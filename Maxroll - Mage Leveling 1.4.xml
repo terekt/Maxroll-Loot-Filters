@@ -1,8 +1,8 @@
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>Maxroll - Mage Leveling 1.3</name>
+  <name>Maxroll - Mage Leveling 1.4</name>
   <filterIcon>8</filterIcon>
   <filterIconColor>16</filterIconColor>
-  <description>Updated for 1.3 by Terek</description>
+  <description>Updated for 1.4 by Terek</description>
   <lastModifiedInVersion>1.1.7.17</lastModifiedInVersion>
   <lootFilterVersion>3</lootFilterVersion>
   <rules>
