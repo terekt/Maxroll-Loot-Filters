@@ -4,19 +4,24 @@
   <filterIconColor>10</filterIconColor>
   <description>Updated for 1.4 by Terek</description>
   <lastModifiedInVersion>1.4.0</lastModifiedInVersion>
-  <lootFilterVersion>5</lootFilterVersion>
+  <lootFilterVersion>9</lootFilterVersion>
   <rules>
     <Rule>
       <type>HIDE</type>
-      <conditions>
-
-      </conditions>
+      <conditions />
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride />
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>31</Order>
     </Rule>
     <Rule>
@@ -53,12 +58,19 @@
           <maximumLvl>9</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>3</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Health recovery - low levels</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>30</Order>
     </Rule>
     <Rule>
@@ -94,12 +106,19 @@
           <maximumLvl>20</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>3</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Health recovery - Early levels</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>29</Order>
     </Rule>
     <Rule>
@@ -150,12 +169,19 @@
           <maximumLvl>9</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>3</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - early</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>28</Order>
     </Rule>
     <Rule>
@@ -205,12 +231,19 @@
           <maximumLvl>30</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>3</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - only T2+</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>27</Order>
     </Rule>
     <Rule>
@@ -261,12 +294,19 @@
           <maximumLvl>54</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>3</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - only T3+</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>26</Order>
     </Rule>
     <Rule>
@@ -318,12 +358,19 @@
           <maximumLvl>100</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>3</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Defensive affixes - only T4+</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>25</Order>
     </Rule>
     <Rule>
@@ -382,12 +429,19 @@
           <maximumLvl>6</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>5</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - Starting setup</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>24</Order>
     </Rule>
     <Rule>
@@ -450,12 +504,19 @@
           <maximumLvl>16</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>5</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - Low level</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>23</Order>
     </Rule>
     <Rule>
@@ -513,12 +574,19 @@
           <maximumLvl>40</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>5</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - only T2+</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>22</Order>
     </Rule>
     <Rule>
@@ -576,12 +644,19 @@
           <maximumLvl>54</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>5</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - only T3+</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>21</Order>
     </Rule>
     <Rule>
@@ -639,12 +714,19 @@
           <maximumLvl>100</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>5</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Offensive affixes - only T4+</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>20</Order>
     </Rule>
     <Rule>
@@ -667,12 +749,19 @@
           <advanced>false</advanced>
         </Condition>
       </conditions>
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Personal and Experimental affixes</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>19</Order>
     </Rule>
     <Rule>
@@ -703,12 +792,19 @@
           <advanced>false</advanced>
         </Condition>
       </conditions>
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Champions Affixes</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>18</Order>
     </Rule>
     <Rule>
@@ -731,12 +827,19 @@
           <maximumLvl>35</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>13</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride>Movement Speed and CDR - Early</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>17</Order>
     </Rule>
     <Rule>
@@ -759,12 +862,19 @@
           <maximumLvl>49</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>13</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride>Movement Speed and CDR - End game only T2+</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>16</Order>
     </Rule>
     <Rule>
@@ -787,12 +897,19 @@
           <maximumLvl>100</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>13</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride>Movement Speed and CDR - End game only T3+</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>15</Order>
     </Rule>
     <Rule>
@@ -811,12 +928,19 @@
           <maximumLvl>10</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride />
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>14</Order>
     </Rule>
     <Rule>
@@ -835,12 +959,19 @@
           <maximumLvl>10</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride />
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>13</Order>
     </Rule>
     <Rule>
@@ -859,12 +990,19 @@
           <maximumLvl>14</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride />
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>12</Order>
     </Rule>
     <Rule>
@@ -887,12 +1025,19 @@
           <maximumLvl>9</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>7</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Most Valuable - Starting setup</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>11</Order>
     </Rule>
     <Rule>
@@ -916,12 +1061,19 @@
           <maximumLvl>20</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>7</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Most Valuable - Low level</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>10</Order>
     </Rule>
     <Rule>
@@ -950,12 +1102,19 @@
           <advanced>false</advanced>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>7</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Most Valuable</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>9</Order>
     </Rule>
     <Rule>
@@ -1003,12 +1162,19 @@
           <advanced>false</advanced>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>15</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Useful Idols</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>8</Order>
     </Rule>
     <Rule>
@@ -1040,12 +1206,19 @@
           <advanced>false</advanced>
         </Condition>
       </conditions>
+      <recolor>true</recolor>
       <color>15</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride>New Useful Weaver Idols</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>7</Order>
     </Rule>
     <Rule>
@@ -1055,12 +1228,19 @@
           <req>Mage Sentinel Acolyte Rogue</req>
         </Condition>
       </conditions>
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>other class items</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>6</Order>
     </Rule>
     <Rule>
@@ -1068,18 +1248,21 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>UNIQUE SET LEGENDARY</rarity>
-          <minLegendaryPotential i:nil="true" />
-          <maxLegendaryPotential i:nil="true" />
-          <minWeaversWill i:nil="true" />
-          <maxWeaversWill i:nil="true" />
         </Condition>
       </conditions>
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride />
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>5</Order>
     </Rule>
     <Rule>
@@ -1087,18 +1270,21 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>EXALTED</rarity>
-          <minLegendaryPotential i:nil="true" />
-          <maxLegendaryPotential i:nil="true" />
-          <minWeaversWill i:nil="true" />
-          <maxWeaversWill i:nil="true" />
         </Condition>
       </conditions>
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride />
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>4</Order>
     </Rule>
     <Rule>
@@ -1106,22 +1292,25 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>EXALTED</rarity>
-          <minLegendaryPotential i:nil="true" />
-          <maxLegendaryPotential i:nil="true" />
-          <minWeaversWill i:nil="true" />
-          <maxWeaversWill i:nil="true" />
         </Condition>
         <Condition i:type="CharacterLevelCondition">
           <minimumLvl>0</minimumLvl>
           <maximumLvl>30</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>Exalted at Low level</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>3</Order>
     </Rule>
     <Rule>
@@ -1129,10 +1318,6 @@
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>EXALTED</rarity>
-          <minLegendaryPotential i:nil="true" />
-          <maxLegendaryPotential i:nil="true" />
-          <minWeaversWill i:nil="true" />
-          <maxWeaversWill i:nil="true" />
         </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
@@ -1199,12 +1384,19 @@
           <advanced>true</advanced>
         </Condition>
       </conditions>
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride />
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>2</Order>
     </Rule>
     <Rule>
@@ -1252,12 +1444,19 @@
           <maximumLvl>3</maximumLvl>
         </Condition>
       </conditions>
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride>every item for first 3 lvls (extra gold at vendor)</nameOverride>
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>1</Order>
     </Rule>
     <Rule>
@@ -1265,17 +1464,24 @@
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
-
+            <EquipmentType>IDOL_ALTAR</EquipmentType>
           </type>
           <subTypes />
         </Condition>
       </conditions>
+      <recolor>false</recolor>
       <color>0</color>
       <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride />
       <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>false</BeamOverride>
+      <BeamSizeOverride>NONE</BeamSizeOverride>
+      <BeamColorOverride>0</BeamColorOverride>
       <Order>0</Order>
     </Rule>
   </rules>
