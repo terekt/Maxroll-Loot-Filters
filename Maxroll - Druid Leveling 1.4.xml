@@ -1,9 +1,9 @@
-<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
   <name>Maxroll - Druid Leveling 1.4</name>
   <filterIcon>20</filterIcon>
   <filterIconColor>10</filterIconColor>
   <description>Updated for 1.4 by Terek</description>
-  <lastModifiedInVersion>1.4</lastModifiedInVersion>
+  <lastModifiedInVersion>1.4.1.2</lastModifiedInVersion>
   <lootFilterVersion>9</lootFilterVersion>
   <rules>
     <Rule>
@@ -22,7 +22,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>42</Order>
+      <Order>40</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -70,7 +70,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>41</Order>
+      <Order>39</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -117,7 +117,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>40</Order>
+      <Order>38</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -177,7 +177,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>39</Order>
+      <Order>37</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -236,7 +236,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>38</Order>
+      <Order>36</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -297,7 +297,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>37</Order>
+      <Order>35</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -358,7 +358,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>36</Order>
+      <Order>34</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -427,7 +427,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>35</Order>
+      <Order>33</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -488,7 +488,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>34</Order>
+      <Order>32</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -551,7 +551,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>33</Order>
+      <Order>31</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -615,7 +615,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>32</Order>
+      <Order>30</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -679,7 +679,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>31</Order>
+      <Order>29</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -714,7 +714,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>30</Order>
+      <Order>28</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -757,7 +757,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>29</Order>
+      <Order>27</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -792,7 +792,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>28</Order>
+      <Order>26</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -827,7 +827,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>27</Order>
+      <Order>25</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -862,7 +862,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>26</Order>
+      <Order>24</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -893,7 +893,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>25</Order>
+      <Order>23</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -924,7 +924,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>24</Order>
+      <Order>22</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -955,7 +955,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>23</Order>
+      <Order>21</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1011,7 +1011,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>22</Order>
+      <Order>20</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1067,7 +1067,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>21</Order>
+      <Order>19</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1123,7 +1123,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>20</Order>
+      <Order>18</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1190,7 +1190,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>19</Order>
+      <Order>17</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1259,7 +1259,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>18</Order>
+      <Order>16</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1326,7 +1326,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>17</Order>
+      <Order>15</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1389,7 +1389,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>16</Order>
+      <Order>14</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1452,7 +1452,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>15</Order>
+      <Order>13</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1515,7 +1515,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>14</Order>
+      <Order>12</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1578,7 +1578,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>13</Order>
+      <Order>11</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1613,7 +1613,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>12</Order>
+      <Order>10</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1648,7 +1648,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>11</Order>
+      <Order>9</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1687,7 +1687,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>10</Order>
+      <Order>8</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1740,7 +1740,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>9</Order>
+      <Order>7</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1787,7 +1787,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>8</Order>
+      <Order>6</Order>
     </Rule>
     <Rule>
       <type>HIDE</type>
@@ -1809,7 +1809,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>7</Order>
+      <Order>5</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1826,130 +1826,6 @@
       <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>false</emphasized>
       <nameOverride />
-      <SoundId>0</SoundId>
-      <MapIconId>0</MapIconId>
-      <BeamOverride>false</BeamOverride>
-      <BeamSizeOverride>NONE</BeamSizeOverride>
-      <BeamColorOverride>0</BeamColorOverride>
-      <Order>6</Order>
-    </Rule>
-    <Rule>
-      <type>HIDE</type>
-      <conditions>
-        <Condition i:type="RarityCondition">
-          <rarity>EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <recolor>false</recolor>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>false</emphasized>
-      <nameOverride />
-      <SoundId>0</SoundId>
-      <MapIconId>0</MapIconId>
-      <BeamOverride>false</BeamOverride>
-      <BeamSizeOverride>NONE</BeamSizeOverride>
-      <BeamColorOverride>0</BeamColorOverride>
-      <Order>5</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="RarityCondition">
-          <rarity>EXALTED</rarity>
-        </Condition>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>HELMET</EquipmentType>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-            <EquipmentType>BELT</EquipmentType>
-            <EquipmentType>BOOTS</EquipmentType>
-            <EquipmentType>GLOVES</EquipmentType>
-            <EquipmentType>AMULET</EquipmentType>
-            <EquipmentType>RING</EquipmentType>
-            <EquipmentType>RELIC</EquipmentType>
-            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>504</int>
-            <int>505</int>
-            <int>4</int>
-            <int>38</int>
-            <int>9</int>
-            <int>23</int>
-            <int>39</int>
-            <int>722</int>
-            <int>6</int>
-            <int>5</int>
-            <int>25</int>
-            <int>52</int>
-            <int>36</int>
-            <int>22</int>
-            <int>90</int>
-            <int>97</int>
-            <int>715</int>
-            <int>8</int>
-            <int>45</int>
-            <int>425</int>
-            <int>7</int>
-            <int>10</int>
-            <int>19</int>
-            <int>24</int>
-            <int>80</int>
-            <int>13</int>
-            <int>17</int>
-            <int>28</int>
-            <int>27</int>
-            <int>34</int>
-            <int>330</int>
-            <int>331</int>
-            <int>335</int>
-            <int>718</int>
-            <int>759</int>
-            <int>338</int>
-            <int>350</int>
-            <int>333</int>
-            <int>344</int>
-            <int>644</int>
-            <int>626</int>
-            <int>622</int>
-            <int>602</int>
-            <int>541</int>
-            <int>677</int>
-            <int>676</int>
-            <int>710</int>
-            <int>674</int>
-            <int>646</int>
-            <int>621</int>
-            <int>21</int>
-            <int>648</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>6</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="CharacterLevelCondition">
-          <minimumLvl>0</minimumLvl>
-          <maximumLvl>16</maximumLvl>
-        </Condition>
-      </conditions>
-      <recolor>false</recolor>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>false</emphasized>
-      <nameOverride>Exalted at Low level</nameOverride>
       <SoundId>0</SoundId>
       <MapIconId>0</MapIconId>
       <BeamOverride>false</BeamOverride>
