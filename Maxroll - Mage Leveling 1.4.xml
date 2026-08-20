@@ -1,9 +1,9 @@
-<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
   <name>Maxroll - Mage Leveling 1.4</name>
   <filterIcon>8</filterIcon>
   <filterIconColor>16</filterIconColor>
   <description>Updated for 1.4 by Terek</description>
-  <lastModifiedInVersion>1.4</lastModifiedInVersion>
+  <lastModifiedInVersion>1.4.1.2</lastModifiedInVersion>
   <lootFilterVersion>9</lootFilterVersion>
   <rules>
     <Rule>
@@ -1751,9 +1751,35 @@
           <combinedComparsionValue>1</combinedComparsionValue>
           <advanced>false</advanced>
         </Condition>
-        <Condition i:type="CharacterLevelCondition">
-          <minimumLvl>25</minimumLvl>
-          <maximumLvl>40</maximumLvl>
+      </conditions>
+      <recolor>true</recolor>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride />
+      <SoundId>0</SoundId>
+      <MapIconId>0</MapIconId>
+      <BeamOverride>true</BeamOverride>
+      <BeamSizeOverride>LARGEST</BeamSizeOverride>
+      <BeamColorOverride>10</BeamColorOverride>
+      <Order>12</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
         </Condition>
       </conditions>
       <recolor>true</recolor>
@@ -1763,13 +1789,13 @@
       <minLvl_deprecated>0</minLvl_deprecated>
       <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
-      <nameOverride>Melee crit</nameOverride>
+      <nameOverride />
       <SoundId>0</SoundId>
       <MapIconId>0</MapIconId>
-      <BeamOverride>false</BeamOverride>
-      <BeamSizeOverride>NONE</BeamSizeOverride>
-      <BeamColorOverride>0</BeamColorOverride>
-      <Order>12</Order>
+      <BeamOverride>true</BeamOverride>
+      <BeamSizeOverride>LARGEST</BeamSizeOverride>
+      <BeamColorOverride>10</BeamColorOverride>
+      <Order>11</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1803,7 +1829,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>11</Order>
+      <Order>10</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1842,7 +1868,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>10</Order>
+      <Order>9</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1897,7 +1923,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>9</Order>
+      <Order>8</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1944,7 +1970,7 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>8</Order>
+      <Order>7</Order>
     </Rule>
     <Rule>
       <type>HIDE</type>
@@ -1966,35 +1992,13 @@
       <BeamOverride>false</BeamOverride>
       <BeamSizeOverride>NONE</BeamSizeOverride>
       <BeamColorOverride>0</BeamColorOverride>
-      <Order>7</Order>
+      <Order>6</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>UNIQUE SET LEGENDARY</rarity>
-        </Condition>
-      </conditions>
-      <recolor>false</recolor>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>false</emphasized>
-      <nameOverride />
-      <SoundId>0</SoundId>
-      <MapIconId>0</MapIconId>
-      <BeamOverride>false</BeamOverride>
-      <BeamSizeOverride>NONE</BeamSizeOverride>
-      <BeamColorOverride>0</BeamColorOverride>
-      <Order>6</Order>
-    </Rule>
-    <Rule>
-      <type>HIDE</type>
-      <conditions>
-        <Condition i:type="RarityCondition">
-          <rarity>EXALTED</rarity>
         </Condition>
       </conditions>
       <recolor>false</recolor>
