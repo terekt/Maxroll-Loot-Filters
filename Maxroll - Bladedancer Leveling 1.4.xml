@@ -1,4 +1,4 @@
-<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
   <name>Maxroll - Bladedancer Leveling 1.4</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>12</filterIconColor>
@@ -551,7 +551,7 @@
           <comparsionValue>3</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>2</combinedComparsionValue>
+          <combinedComparsionValue>3</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
         <Condition i:type="SubTypeCondition">
@@ -565,6 +565,7 @@
             <EquipmentType>RELIC</EquipmentType>
             <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
             <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>ONE_HANDED_MACES</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -633,6 +634,7 @@
             <EquipmentType>RELIC</EquipmentType>
             <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
             <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>ONE_HANDED_MACES</EquipmentType>
           </type>
           <subTypes />
         </Condition>
